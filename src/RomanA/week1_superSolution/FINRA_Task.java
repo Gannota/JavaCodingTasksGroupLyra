@@ -1,4 +1,4 @@
-package Roman_week1_superSolution;
+package RomanA.week1_superSolution;
 
 public class FINRA_Task {
 
