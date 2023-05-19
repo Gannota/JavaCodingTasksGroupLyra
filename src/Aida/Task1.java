@@ -26,7 +26,6 @@ public class Task1 {
             System.out.println(number1 + " number is odd");
         }
 
-        input.close();
 
 
 
