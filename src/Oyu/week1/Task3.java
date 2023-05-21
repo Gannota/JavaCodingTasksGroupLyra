@@ -21,6 +21,8 @@ public class Task3 {
 
     public static void main(String[] args) {
         FINRA(6);
+
+        //tested
     }
 }
 /*
