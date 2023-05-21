@@ -11,7 +11,7 @@ public class Task1 {
             result="Odd";
         }
         System.out.println(result);
-Task3.FINRA(15);
 
+//tested
     }
 }
