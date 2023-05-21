@@ -16,6 +16,6 @@ public class Task2 {
 
         System.out.println(divideTwoNumbers(50, 2));
 
-
+// tested
     }
 }
