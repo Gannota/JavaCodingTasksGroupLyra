@@ -1,4 +1,4 @@
-package Deonis_Week_1;
+package Deonis.Week_1;
 
 public class Task2 {
     public static void main(String[] args) {
