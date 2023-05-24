@@ -1,4 +1,4 @@
-package Week_1;
+package Deonis_Week_1;
 
 public class Task3 {
 
