@@ -23,5 +23,7 @@ public class Task2 {
         System.out.println(result);
 
 
+       // new lines needed
+
     }
 }
