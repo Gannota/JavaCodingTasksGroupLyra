@@ -1,4 +1,4 @@
-package luna;
+package luna.week1;
 
 public class OddEven {
 
