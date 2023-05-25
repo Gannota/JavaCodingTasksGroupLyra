@@ -1,13 +1,13 @@
-package Oyu.week2;
+package Oyu.Interview;
 
 public class Runner {
 
     public static void main(String[] args) {
         System.out.println("Reverse String test started");
 
-        System.out.println(Task4.strReverse("ABDC"));
-        System.out.println(Task4.Reverse("Java"));
-        System.out.println(Task4.reverse("Wooden Spoon"));
+      //  System.out.println(Task4.strReverse("ABDC"));
+     //   System.out.println(Task4.Reverse("Java"));
+    //    System.out.println(Task4.reverse("Wooden Spoon"));
 
         System.out.println("-----------------------------------------------");
 

@@ -1,14 +1,22 @@
-package Oyu.week2;
+package Oyu.Interview;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 
 public class Task5 {
+
+    public static void main(String[] args) {
+
+        System.out.println(frequency("AABBBDDDDCCCCCCC"));
+    }
     /*
     Write a return method that can find the frequency of
     characters
      */
+
+
+
     //Solution1
     public static String FrequencyOfChars(String str) {
         String nonDup = "";
