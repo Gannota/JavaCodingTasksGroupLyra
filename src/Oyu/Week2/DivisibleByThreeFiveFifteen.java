@@ -1,38 +1,27 @@
 package Oyu.Week2;
 
 public class DivisibleByThreeFiveFifteen {
-    /*
-   Write function that, given a positive integer N, prints the consecutive numbers from 1 to
-N, each on a separate line. However, any number divisible by 2, 3 or 5
-should be replaced by the word Codility, Test or Coders respectively. If a
-number is divisible by more than one of the numbers: 2,3 or 5, it should be
-replaced by a concatenation of the respective words Codility, Test and
-Coders in this given order. For example, numbers divisible by both 2 and 3
-should be replacée by CodilityTest and numbers divisible by all
-three numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
-     */
+/*
+Write program that can print the numbers between 1~100 that can divisible by3,5,15.
+if the number can be divisible by 3,5, and 15 then it should only displayed in DivisibleBy15 section
+if the number can be divisible by 3, but can not be divisible by 15 then it should only displayed in DivisibleBy3 section
+if the number can be divisible by 5, but can not be divisible by 15 then it should only displayed in DivisibleBy5 section
+ */
+
+
     public static void main(String[] args) {
-        int N=24;
-        String result = "";
-        for(int i = 1; i<=N; i++){
-            if(i % 2==0 && i % 3==0 && i % 5 ==0){
-                result += "CodilityTestCoders\n";
-            } else if (i % 2==0 && i % 3==0) {
-                result+="CodilityTest\n";
-            }else if(i % 2==0 && i % 5 ==0){
-                result += "CodilityCoders\n";
-            }else if( i % 3==0 && i % 5 ==0){
-                result += "TestCoders\n";
-            }else if( i % 2==0){
-                result += "Codility\n";
-            }else if(i % 3==0 ){
-                result += "Tests\n";
-            }else if ( i % 5 ==0){
-                result += "Coders\n";
-            }else {
-                result+= i+"\n";
+
+        for (int num = 1; num < 100; num++) {
+            if (num % 3 == 0 && num % 15 != 0) {
+                System.out.println( num + " Divisible By 3 ");
+            } else if (num % 5 == 0 && num % 15 != 0) {
+               // System.out.println();
+                System.out.println(num + " Divisible By 5 ");
+            } else if (num % 15 == 0) {
+               // System.out.println();
+                System.out.println(num + " Divisible By 15");
             }
         }
-        System.out.println( result);
     }
+
 }
