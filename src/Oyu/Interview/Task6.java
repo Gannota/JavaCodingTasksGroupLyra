@@ -1,4 +1,4 @@
-package Oyu.week2;
+package Oyu.Interview;
 
 public class Task6 {
 
