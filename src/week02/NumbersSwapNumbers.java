@@ -4,7 +4,7 @@ public class NumbersSwapNumbers {
 
     public static void main(String[] args) {
 
-
+//Numbers Divisible by 3
         for (int i = 1; i <= 100 ; i++) {
             if (i % 3 == 0){
                 System.out.println("Divisible by 3 : " + i);
@@ -14,6 +14,7 @@ public class NumbersSwapNumbers {
 
         System.out.println("------------------------------------------------------------");
 
+        //Numbers Divisible by 5
         for (int i = 1; i <= 100; i++) {
             if (i % 5 == 0){
                 System.out.println("Divisible by 5 : " + i);
@@ -22,14 +23,17 @@ public class NumbersSwapNumbers {
 
         System.out.println("---------------------------------------------------------------");
 
+        //Numbers Divisible by 15
         for (int i = 1; i <= 100; i++) {
             if (i % 15 == 0){
                 System.out.println("Divisible by 15 : " + i);
             }
         }
 
+
         System.out.println("---------------------------------------------------");
 
+        //Numbers Divisible by 3, 5, 15
         for (int i = 1; i <= 100; i++) {
             if (i % 3 == 0 || i % 5 == 0 || i % 15 == 0){
                 System.out.println("Divisible by 3  or  5 or 15: " + i);
