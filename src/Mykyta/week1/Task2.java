@@ -9,8 +9,8 @@ public class Task2 {
         int result = 0;
 
             while(num1 >= num2) {
-                num1 = num1 - num2;
-                result++;
+                num1 = num1 - num2;//0
+                result++;//4
             }
 
 
