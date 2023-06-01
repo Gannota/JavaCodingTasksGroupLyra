@@ -14,6 +14,7 @@ three numbers: 2,3 and 5, should be replaced by CodilityTestCoders.
     public static void main(String[] args) {
         int N=24;
         String result = "";
+
         for(int i = 1; i<=N; i++){
             if(i % 2==0 && i % 3==0 && i % 5 ==0){
                 result += "CodilityTestCoders\n";

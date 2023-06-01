@@ -10,16 +10,17 @@ if the number can be divisible by 5, but can not be divisible by 15 then it shou
 
 
     public static void main(String[] args) {
+        String by15 ="Divisible By 15",
+                by5="Divisible By 5",
+                by3="Divisible By 3";
 
         for (int num = 1; num < 100; num++) {
             if (num % 3 == 0 && num % 15 != 0) {
-                System.out.println( num + " Divisible By 3 ");
+                by3 +=num;
             } else if (num % 5 == 0 && num % 15 != 0) {
-               // System.out.println();
-                System.out.println(num + " Divisible By 5 ");
+                by5 +=num;
             } else if (num % 15 == 0) {
-               // System.out.println();
-                System.out.println(num + " Divisible By 15");
+               by3+=num;
             }
         }
     }
