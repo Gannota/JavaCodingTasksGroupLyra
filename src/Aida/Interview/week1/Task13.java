@@ -1,12 +1,13 @@
-package Aida.Interview;
-
-import java.util.Arrays;
-import java.util.LinkedHashSet;
-import java.util.Set;
+package Aida.Interview.week1;;
 
 public class Task13 {
 
-    public static Set<String> permutation(char[] ch) {
+
+
+
+
+}
+   /* public static Set<String> permutation(char[] ch) {
         String str = Arrays.toString(ch).replace(", ", "").replace("[", "").replace("]", "");
         Set<String> set = new LinkedHashSet<>();
         if (str.length() == 1){
@@ -29,4 +30,4 @@ public class Task13 {
 //    public static void printPermutation(char[ ] ch) {
 //        for(String s: permutation(ch))
 //            System.out.println(Arrays.toString( s.toCharArray( ) ) );
-//    }
+*/
