@@ -1,17 +1,17 @@
-package Mykyta.week1;
+package Deonis.Week_1;
 
 public class Task2 {
     public static void main(String[] args) {
-        System.out.println(divide(12,3));
+        System.out.println(divide(16,3));
     }
 
     public static int divide(int num1, int num2) {
         int result = 0;
 
-            while(num1 >= num2) {
-                num1 = num1 - num2;//0
-                result++;//4
-            }
+        while(num1 >= num2) {
+            num1 = num1 - num2;
+            result++;
+        }
 
 
         return result;
