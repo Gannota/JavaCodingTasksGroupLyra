@@ -9,7 +9,8 @@ public class PrimeNumber {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter number");
-        int num = scan.nextInt();
+       // int num = scan.nextInt();
+        int num = 29;
 
         boolean prime = false;
         for (int i = 2; i <= num / 2 ; i++) {
