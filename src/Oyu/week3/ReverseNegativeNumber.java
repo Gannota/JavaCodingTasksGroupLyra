@@ -6,18 +6,25 @@ public class ReverseNegativeNumber {
 input: -35  output: -53
      */
     public static void main(String[] args) {
-        System.out.println(reverseNegative(-136));
+        System.out.println(reverseNegative(-125));
 
     }
     public static int reverseNegative(int n){
-        int reverse =0;
-        int remainder=0;
-        while (n<0){
-            remainder= n %10;
-            reverse =reverse*10 +remainder;
-            n = n/10;
-
+        if(n>0){
+            throw new RuntimeException("Method doesnt accept positive number: " +n);
         }
-        return reverse;
+
+            int reverse =0;
+            int remainder=0;
+            while (n<0){
+                remainder= n %10;
+                reverse =reverse*10 +remainder;
+                n = n/10;
+
+            }
+            return reverse;
+
+
+
     }
 }

@@ -6,6 +6,7 @@ public class PrimeNumbers {
     Prime Number:2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47
      */
     public static void main(String[] args) {
+
         System.out.println("isPrime(7) = " + isPrime(7));
     }
     public static boolean isPrime(int n){
