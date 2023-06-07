@@ -9,7 +9,7 @@ public class PrimeNumber {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter number");
-       // int num = scan.nextInt();
+        //int num = scan.nextInt();
         int num = 29;
 
         boolean prime = false;
@@ -24,5 +24,6 @@ public class PrimeNumber {
         }else{
             System.out.println(num + " is not prime number");
         }
+        scan.close();
     }
 }
