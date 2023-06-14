@@ -18,6 +18,7 @@ public class String_RemoveDuplicates {
 
     public static String removeDup(String str) {
         String nonDup = "";
+
         for (int i = 0; i < str.length(); i++) {
             if (!nonDup.contains("" + str.charAt(i))) {
                 nonDup += "" + str.charAt(i);
