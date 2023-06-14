@@ -1,4 +1,4 @@
-package Aida;
+package Aida.Week1;
 
 import java.util.Scanner;
 
