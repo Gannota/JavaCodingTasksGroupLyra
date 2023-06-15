@@ -1,4 +1,4 @@
-package Daadman.fromAslan;
+package Daadman.interviewTasks;
 
 public class MaximumNumber7_1 {
 

@@ -1,4 +1,4 @@
-package Daadman.fromAslan;
+package Daadman.interviewTasks;
 
 public class MinimumNumber8_1 {
 
