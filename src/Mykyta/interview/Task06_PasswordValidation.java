@@ -7,7 +7,7 @@ public class Task06_PasswordValidation {
         System.out.println(passwordValidation("Aa1177w2w2w2w@@"));
         System.out.println("-------");
 
-        System.out.println(passwordValidation2("Aa1177w2w2w2w@@"));
+        //System.out.println(passwordValidation2("Aa1177w2w2w2w@@"));
 
     }
 
