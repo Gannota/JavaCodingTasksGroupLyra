@@ -1,4 +1,4 @@
-package Daadman.fromAslan;
+package Daadman.interviewTasks;
 
 import java.util.Arrays;
 
