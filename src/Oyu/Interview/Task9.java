@@ -14,6 +14,7 @@ public class Task9 {
     }
     public static String uniqueChar(String str){
         String unique="";
+
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i); // string element into char
             if(str.indexOf(ch)==str.lastIndexOf(ch)){
