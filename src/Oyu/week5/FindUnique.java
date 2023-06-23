@@ -15,9 +15,9 @@ public class FindUnique {
         String unique ="";
 
         for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i); // string element into char
+            char ch = str.charAt(i);      // string element into char
             if (str.indexOf(ch) == str.lastIndexOf(ch)) {
-                unique += ch; // char element to string by adding empty string
+                unique += ch;             // char element to string by adding empty string
             }
         }
 
