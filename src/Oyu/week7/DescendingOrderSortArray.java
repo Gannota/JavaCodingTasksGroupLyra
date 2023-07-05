@@ -10,9 +10,13 @@ public class DescendingOrderSortArray {
         array = sortArray(array);
         System.out.println(Arrays.toString(array));
     }
-
+/*
+ Array - Sort Descending
+ Write a return method that can sort an int array in descending order without using the sort method of the Arrays class
+ */
     public static int [] sortArray(int [] arr){
         ArrayList<Integer> list = new ArrayList<>();
+
         for(int each :arr){
             list.add(each);
         }
@@ -24,7 +28,7 @@ public class DescendingOrderSortArray {
 
         return arr;
     }
-    public static int findMax(ArrayList<Integer>  aList){
+    public static int findMax(ArrayList <Integer>  aList){
         int max= Integer.MIN_VALUE;
         for(int each : aList){
             max=Math.max(max, each );
