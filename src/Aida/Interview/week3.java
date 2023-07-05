@@ -1,4 +1,4 @@
-package Aida.Interview.week3;
+package Aida.Interview;
 
 import java.util.Scanner;
 
