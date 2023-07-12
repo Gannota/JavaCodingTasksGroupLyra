@@ -2,7 +2,7 @@ package Oyu.Interview;
 
 import java.util.Arrays;
 
-public class MinIntArray {
+public class Task8MinIntArray {
     /*
     Write a method that can find the minimum number from an intArray
      */

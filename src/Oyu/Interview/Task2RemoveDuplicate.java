@@ -3,7 +3,7 @@ package Oyu.Interview;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 
-public class RemoveDuplicate {
+public class Task2RemoveDuplicate {
    /*
    Write a return method that can remove the duplicated values
 from String

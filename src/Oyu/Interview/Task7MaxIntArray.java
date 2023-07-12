@@ -2,7 +2,7 @@ package Oyu.Interview;
 
 import java.util.Arrays;
 
-public class MaxIntArray {
+public class Task7MaxIntArray {
     /*
      Write a method that can find the maximum number from an int
             Array

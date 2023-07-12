@@ -3,7 +3,7 @@ package Oyu.Interview;
 import java.util.Arrays;
 import java.util.TreeSet;
 
-public class SameLetterStringCheck {
+public class Task1SameLetterStringCheck {
 
     public static void main(String[] args) {
 

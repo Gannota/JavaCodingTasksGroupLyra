@@ -1,6 +1,6 @@
 package Oyu.Interview;
 
-public class ReverseString {
+public class Task4ReverseString {
 
     /*
     Write a return method that can reverse String
