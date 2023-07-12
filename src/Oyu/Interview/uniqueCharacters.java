@@ -1,6 +1,6 @@
 package Oyu.Interview;
 
-public class Task9 {
+public class uniqueCharacters {
 //    Write a return method that can find the unique characters from the String
 //    Ex: unique("AAABBBCCCDEF") ==> "DEF";
 

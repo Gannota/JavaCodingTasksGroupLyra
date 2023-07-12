@@ -13,18 +13,18 @@ public class Runner {
 
         System.out.println("Frequency of character test started");
 
-        System.out.println(Task5.FrequencyOfChars("HHadddjeee"));
-        System.out.println(Task5.FrequencyOfChar("aaaaaaaaaafffffffffffffffggggggggggggggggggg"));
-        System.out.println(Task5.FrequencyOfCharacter("AAABBCDD"));
-        System.out.println(Task5.frequency("AAABBCDD"));
+        System.out.println(FrequencyOfChar.FrequencyOfChars("HHadddjeee"));
+        System.out.println(FrequencyOfChar.FrequencyOfChar("aaaaaaaaaafffffffffffffffggggggggggggggggggg"));
+        System.out.println(FrequencyOfChar.FrequencyOfCharacter("AAABBCDD"));
+        System.out.println(FrequencyOfChar.frequency("AAABBCDD"));
 
 
         System.out.println("------------------------------------------------");
 
         System.out.println("Valid password test started");
 
-        System.out.println(Task6.PassWordvalidation("@CydeoSchool2023"));
-        System.out.println(Task6.PassWordvalidation("WoodenSpppon"));
+        System.out.println(PasswordValidation.PassWordvalidation("@CydeoSchool2023"));
+        System.out.println(PasswordValidation.PassWordvalidation("WoodenSpppon"));
 
     }
 }

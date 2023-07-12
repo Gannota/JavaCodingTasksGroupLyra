@@ -3,7 +3,7 @@ package Oyu.Interview;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Task10 {
+public class SortArrayDescendingOrder {
 //    Write a return method that can sort an int array in descending order
 //    without using the sort method of the Arrays class
 //    Ex: int[] arr = {10,20,7, 8, 90};

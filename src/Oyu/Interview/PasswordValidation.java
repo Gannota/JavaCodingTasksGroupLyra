@@ -1,6 +1,6 @@
 package Oyu.Interview;
 
-public class Task6 {
+public class PasswordValidation {
 
 /*
 Write a return method that can verify if a password is valid or not.
