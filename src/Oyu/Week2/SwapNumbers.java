@@ -1,24 +1,22 @@
-package Deonis.Week_2;
+package Oyu.Week2;
 
-public class Task1 {
+public class SwapNumbers {
+    /*
+    swap two variables' value without using a third variables
+     */
     public static void main(String[] args) {
 
-        int a = 10;
-        int b = 20;
-
+        int a = 10; int b= 20;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        a = a + b;
-        b = a - b;
-        a = a - b;
 
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+
 
     }
 }
-
-/*
-Swap two numbers without using third variable
- */
