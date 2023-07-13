@@ -1,12 +1,8 @@
 package Oyu.Interview;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-public class Task7 {
+public class Task7MaxIntArray {
     /*
      Write a method that can find the maximum number from an int
             Array

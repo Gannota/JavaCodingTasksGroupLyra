@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 
-public class Task5 {
+public class Task5FrequencyOfChar {
 
     public static void main(String[] args) {
 
