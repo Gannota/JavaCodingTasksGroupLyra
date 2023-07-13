@@ -8,6 +8,9 @@ identify(5) -> "Odd"
 identify(6) -> "Even"
 Solution:
      */
+    public static void main(String[] args) {
+
+    }
 
 }
 

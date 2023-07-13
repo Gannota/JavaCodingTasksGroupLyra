@@ -1,6 +1,7 @@
 package Oyu.Interview;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Task9SortArrayAscendingOrder {
     /*
@@ -10,7 +11,11 @@ Ex:
 int[] arr = {10, 9, 8, 7};
 arr = Sort(arr); ==>{ 7, 8, 9, 10}
      */
-
+    public static void main(String[] args) {
+        int [] array = {10,20,7, 8, 90};
+        array = Sort(array);
+        System.out.println(Arrays.toString(array));
+    }
 
     public static int[] Sort(int[] a) {
         ArrayList<Integer> list=new ArrayList<Integer>();
